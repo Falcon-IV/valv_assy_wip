@@ -24,7 +24,7 @@ from HeaderFooter import *
 from OracleConnection import *
 
 """
-    Variables and programm 
+    Variables and programm
     start methods
     and file creation
 """
@@ -114,7 +114,6 @@ def main():
             Order total variables
         """
         ordtotmc = ordertotlc = ordtotmoc = ordtotloc = ordtot = 0
-
         concde = curs1_curs[0]
         # print(concde)
         """
@@ -272,7 +271,7 @@ def main():
     y = 502
 
     """
-        ROUGH CASTINGS (1) section     
+        ROUGH CASTINGS (1) section
     """
     sql = v.account_codes()
     account_codescurs = conn.cursor()
